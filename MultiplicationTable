@@ -1,0 +1,16 @@
+/* multiplication table using single integer in method */
+
+public class MultiplicationTable {
+	// 5*1=5
+	//5*10=50
+	void Print() {
+	    for(int i = 1; i <= 10; i++) {
+			System.out.printf("%d X %d = %d ", 5, i, 5 * i).println();
+		
+	    }
+	}
+		public static void main(String[] args) {
+		MultiplicationTable table = new MultiplicationTable();
+		table.Print();
+		}
+}
