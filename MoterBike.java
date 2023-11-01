@@ -8,6 +8,13 @@ public class MoterBike {
 	// behaviour
 	// method
 	// input - int speed; output - void; name - setSpeed;
+	MoterBike() {
+		this(5);
+	}
+
+	MoterBike(int speed) { // USING CONSTRUCTOR
+		this.speed = speed;
+	}
 
 
 	void start() {
